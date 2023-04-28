@@ -6,6 +6,7 @@ description: Boutique information security consulting firm
 keywords: infosec, consulting, information security
 
 url: https://beyondparanoid.com
+repository: BeyondParanoid/beyondparanoid.com
 
 # Exclude our ruby stuff and other files
 exclude:
