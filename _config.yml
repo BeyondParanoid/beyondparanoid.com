@@ -1,0 +1,33 @@
+name: Beyond Paranoid
+author: Beyond Paranoid
+
+title: Beyond Paranoid
+description: Boutique information security consulting firm
+keywords: infosec, consulting, information security
+
+url: https://beyondparanoid.com
+
+# Exclude our ruby stuff and other files
+exclude:
+  [
+    .bundle,
+    bin,
+    vendor,
+    Gemfile,
+    Gemfile.lock,
+    .github,
+    Rakefile,
+    .last_optimized,
+    CNAME,
+    README.md,
+    LICENSE,
+    SECURITY.md,
+  ]
+include: [.well-known]
+
+show_downloads: false
+google_analytics: G-CBDN4PXELW
+
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+- jekyll-remote-theme
